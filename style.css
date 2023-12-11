@@ -39,5 +39,14 @@ body {
 .card-content {
     order: -1;
     margin-left: 20px;
+    display: grid;
 } 
+
+.card-title {
+    margin: 2.5rem;
+    margin-top: 3rem;
+    font-size: 1.7em;
+    color: #fff;
+
+}
   
