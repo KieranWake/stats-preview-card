@@ -38,15 +38,35 @@ body {
 
 .card-content {
     order: -1;
-    margin-left: 20px;
+    margin-left: 2rem;
     display: grid;
 } 
 
 .card-title {
-    margin: 2.5rem;
-    margin-top: 3rem;
+    margin: 2rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
     font-size: 1.7em;
     color: #fff;
-
 }
-  
+
+.description {
+    margin-bottom: 10rem;
+    color: #fff;
+    font-size: .8em;
+    padding-left: 3rem;
+    padding-right: 5rem;
+}
+
+span {
+    color: hsl(277, 64%, 61%);
+}
+
+
+.flex-group {
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    margin-top: -12rem;
+    padding-left: 1rem;
+}
