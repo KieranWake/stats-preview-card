@@ -65,7 +65,7 @@ span {
 
 .flex-group {
     display: flex; 
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
     margin-top: -12rem;
     padding-left: 1rem;
