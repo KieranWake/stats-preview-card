@@ -1,3 +1,28 @@
+@font-face {
+    src: url(fonts/Inter-Bold.ttf); 
+    font-family: 'Inter-Bold'; 
+    font-style: bold;
+}
+
+@font-face {
+    src: url(fonts/Inter-Regular.ttf);
+    font-family: 'Inter-Regular'; 
+    font-style: bold;
+}
+
+@font-face {
+    src: url(fonts/LexendDeca-Bold.ttf); 
+    font-family: 'LexendDeca-Bold'; 
+    font-style: bold;
+}
+
+@font-face {
+    src: url(fonts/LexendDeca-Regular.ttf); 
+    font-family: 'LexendDeca-Regular'; 
+    font-style: bold;
+}
+
+
 * {
     margin: 0;
     padding: 0; 
