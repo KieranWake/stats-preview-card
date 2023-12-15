@@ -7,7 +7,7 @@
 @font-face {
     src: url(fonts/Inter-Regular.ttf);
     font-family: 'Inter-Regular'; 
-    font-style: bold;
+    font-style: normal;
 }
 
 @font-face {
@@ -50,7 +50,7 @@ body {
 .image {
     position: relative;
     height: 350px;
-    width: 100%;
+    width: 115%;
     order: 1;
 }
 
@@ -81,42 +81,46 @@ body {
 } 
 
 .card-title {
+    font-family: 'Inter-Bold';
     margin: 2rem;
-    padding-left: 1rem;
+    padding-left: .1rem;
     padding-right: 1rem;
     font-size: 1.7em;
     color: #fff;
-}
-
-.description {
-    margin-bottom: 10rem;
-    color: #fff;
-    font-size: .8em;
-    padding-left: 3rem;
-    padding-right: 5rem;
 }
 
 span {
     color: hsl(277, 64%, 61%);
 }
 
+.description {
+    font-family: 'Inter-Regular';
+    font-size: .3em;
+    margin-bottom: 10rem;
+    color: hsla(0, 0%, 100%, 0.75);
+    font-size: .8em;
+    padding-left: 2rem;
+    padding-right: 6rem;
+}
 
 .flex-group {
     display: flex; 
     justify-content: center;
     align-items: center;
     margin-top: -12rem;
-    padding-right: 3.5rem;
+    padding-right: 5.5rem;
+    gap: 42px;
+    font-family: 'Inter-Bold';
 }
 
 .flex-item-one,
 .flex-item-two,
 .flex-item-three  {
+    font-family: 'LexendDeca-Regular';
     text-transform: uppercase;
-    font-size: .8em;
-    padding: .7rem;
+    font-size: .6em;
     line-height: 1.5rem;
-    color: #fff;
+    color: hsla(0, 0%, 100%, 0.75);
 }
 
 .flex-item-one h1,
