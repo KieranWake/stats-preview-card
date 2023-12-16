@@ -141,6 +141,10 @@ span {
     .image {
       width: 100%; 
       order: 2; 
+      object-fit: cover;
+      border-radius: .5rem;
+      border-bottom-left-radius: 0px; 
+      border-top-left-radius: 0px;
     }
   
     .card-content {
