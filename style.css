@@ -131,3 +131,39 @@ span {
     color: #fff;
 } 
 
+@media only screen and (max-width: 767px) {
+   
+    .card-container {
+      flex-direction: column; 
+      align-items: center; 
+    }
+  
+    .image {
+      width: 100%; 
+      order: 2; 
+    }
+  
+    .card-content {
+      margin-left: 0; 
+    }
+  
+    .card-title {
+      margin: 1rem;
+    }
+  
+    .description {
+      margin-bottom: 2rem; 
+      padding-left: 1rem; 
+      padding-right: 1rem; 
+    }
+  
+    .flex-group {
+      flex-direction: column; 
+      align-items: center; 
+      margin-top: 1rem; 
+      padding-right: 1rem; 
+      gap: 20px; 
+    }
+  }
+  
+
